@@ -1,0 +1,25 @@
+.table{
+    width: 50%;
+    border-collapse: collapse;    
+}
+.header{
+    background-color: yellow;
+    padding: 10px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home{
+    background-color: pink;
+    padding: 50px;
+}
+.time{
+    background-color:lightgrey;
+}
+td,th{
+    padding: 10px;
+    text-align: center;
+}
