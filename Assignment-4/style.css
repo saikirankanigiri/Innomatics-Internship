@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+/* Header & Navbar */
+header {
+    background-color: #002B5B; /* Professional dark blue */
+    padding: 10px 20px;
+    border-bottom: 2px solid #e0e4e8;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left h1 {
+    font-size: 22px;
+    color: #fff; /* White for readability */
+    font-weight: 700;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar-right a {
+    display: flex;
+    align-items: center;
+    color: #ffffff; /* White links */
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbar-right a:hover {
+    color: #00b894; /* Light green accent */
+}
+
+.navbar-right i {
+    margin-right: 8px;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #ffffff;
+    padding: 20px;
+    border-right: 1px solid #e0e4e8;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #002B5B; /* Dark blue */
+}
+
+.sidebar-section ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.sidebar-section ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    color: #555;
+    font-size: 14px;
+}
+
+.sidebar-section button {
+    background-color: #00b894; /* Accent green */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.sidebar-section button:hover {
+    background-color: #019d76;
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 270px; /* Adjust based on the sidebar width */
+    padding: 40px;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 0;
+        padding: 20px;
+    }
+    .sidebar {
+        width: 100%;
+        position: relative;
+        height: auto;
+    }
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #ffffff;
+    border: 1px solid #e0e4e8;
+    border-radius: 10px;
+    margin: 40px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.hero-content {
+    width: 60%;
+}
+
+.hero-content h2 {
+    font-size: 32px;
+    color: #002B5B; /* Dark blue */
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.what-inside h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #002B5B;
+    font-weight: 600;
+}
+
+.what-inside p, .what-inside ul {
+    color: #555;
+    font-size: 16px;
+}
+
+.form-section {
+    background-color: #002B5B;
+    padding: 40px;
+    color: white;
+    width: 35%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h3 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+
+input, textarea {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    font-size: 16px;
+    width: 100%;
+}
+
+button {
+    padding: 12px;
+    background-color: #00b894;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #019d76;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .hero-content {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .form-section {
+        width: 100%;
+    }
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #f1f5f8;
+    padding: 15px;
+    font-size: 14px;
+    color: #333;
+    margin-top: 40px;
+    border-top: 2px solid #e0e4e8;
+}
+
+footer p {
+    margin: 0;
+}
