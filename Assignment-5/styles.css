@@ -1,0 +1,201 @@
+/* Google Fonts */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    padding: 15px;
+}
+
+.navbar-brand img {
+    max-width: 100%; /* Ensures the logo scales properly */
+    height: auto;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.navbar .btn-outline-primary {
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.navbar .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+/* Hero Section Styles */
+section.container.text-center.my-5 {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    border-radius: 8px;
+}
+
+section.container.text-center.my-5 h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+section.container.text-center.my-5 p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+section.container.text-center.my-5 .btn {
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+}
+
+/* Awards Section */
+.awards img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Courses Section */
+#courses-section {
+    background-color: #f1f1f1;
+    padding: 50px 0;
+}
+
+#courses-section h2 {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#courses-section .img-fluid {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+#courses-section h4 {
+    font-weight: 600;
+    margin-top: 15px;
+    color: #333;
+}
+
+/* Classrooms Section */
+section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+section .img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Contact Us Form */
+form {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 1rem;
+}
+
+.form-group label {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+button.btn-success {
+    background-color: #28a745;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    font-weight: 700;
+}
+
+button.btn-success:hover {
+    background-color: #218838;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-weight: 700;
+}
+
+footer a {
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #007bff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Navbar collapse */
+    .navbar-nav {
+        text-align: center;
+    }
+
+    /* Aligning images and sections on small screens */
+    .col-lg-4, .col-md-6, .col-sm-12 {
+        margin-bottom: 30px;
+    }
+
+    /* Adjusting font sizes for smaller screens */
+    section h2 {
+        font-size: 2rem;
+    }
+
+    section p {
+        font-size: 1rem;
+    }
+
+    .navbar .btn-outline-primary {
+        display: block;
+        margin: 10px auto;
+        padding: 8px 20px;
+    }
+
+    .container.text-center.my-5 {
+        padding: 40px 20px;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+}
