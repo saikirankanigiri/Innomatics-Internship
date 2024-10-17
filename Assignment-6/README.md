@@ -1,1 +1,0 @@
-# innomaticsIinternshipTask6
